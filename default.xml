@@ -39,8 +39,8 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
 
   <!-- Samsung gs3 Devices -->
-  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="rc" revision="kk-4.4" />
-  <project path="device/samsung/d2spr" name="platform_device_samsung_d2spr" groups="pdk" remote="rc" revision="kk-4.4" />
+  <project path="device/samsung/d2-common" name="platform_device_samsung_d2-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/d2spr" name="platform_device_samsung_d2spr" groups="pdk" remote="ok" revision="kk-4.4" />
   
   <!-- Samsung gs4 Devices -->
   <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -58,7 +58,7 @@
   
   <!-- Kernel -->
   <project path="kernel/samsung/jf" name="AOSP-S4-KK/platform_kernel_samsung_jf" remote="github" revision="kk-4.4_new" />
-  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="rc" revision="kk-4.4" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
