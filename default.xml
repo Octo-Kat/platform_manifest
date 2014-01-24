@@ -4,8 +4,8 @@
   <remote name="ok"
            fetch="https://github.com/Octo-Kat/" />
 
-  <remote name="rc"
-           fetch="https://github.com/Oct-D2/" />
+  <remote  name="trk"
+           fetch="ssh://git@bitbucket.org/Treken/" />
            
   <remote name="tem"
            fetch="https://github.com/Temp-/" />
@@ -31,7 +31,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="jet" name="jet" remote="ok" revision="kk-4.4" />
+  <project path="jet" name="jet" remote="trk" revision="kk-4.4" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
