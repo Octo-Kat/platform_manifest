@@ -43,7 +43,7 @@
   <project path="device/samsung/d2spr" name="platform_device_samsung_d2spr" groups="pdk" remote="ok" revision="kk-4.4" />
   
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/jf-common" name="platform_device_samsung_jf-common" groups="pdk" remote="trk" revision="kk-4.4" />
   <project path="device/samsung/jfltevzw" name="platform_device_samsung_jfltevzw" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jfltespr" name="platform_device_samsung_jfltespr" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/jflteusc" name="platform_device_samsung_jflteusc" groups="pdk" remote="ok" revision="kk-4.4" />
@@ -57,7 +57,7 @@
   <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
   
   <!-- Kernel -->
-  <project path="kernel/samsung/jf" name="AOSP-S4-KK/platform_kernel_samsung_jf" remote="github" revision="kk-4.4_new" />
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="trk" revision="kk-4.4" />
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   
   <!-- Documentation -->
@@ -260,7 +260,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="tem" revision="kk-4.4" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -347,7 +347,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="tem" revision="kk-4.4" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
