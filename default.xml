@@ -7,8 +7,8 @@
   <remote  name="trk"
            fetch="ssh://git@bitbucket.org/Treken/" />
            
-  <remote name="tem"
-           fetch="https://github.com/Temp-/" />
+  <remote name="tk"
+           fetch="https://github.com/treken/" />
            
   <remote name="hw"
            fetch="https://github.com/hardware-repos/" />
@@ -323,7 +323,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="tk" revision="kk-4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -343,6 +343,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OctOTA" name="platform_packages_apps_OctOTA" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
+  <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
