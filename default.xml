@@ -21,7 +21,7 @@
            sync-j="4" />
 
   <remote name="github"
-           fetch="git://github.com/" />
+           fetch="https://github.com/" />
 
  <project path="build" name="platform_build" remote="ok" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
