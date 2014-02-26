@@ -1,1 +1,0 @@
-If you need a readme to download the source then you're pathetic!!! README's are for noobs, Noob!
