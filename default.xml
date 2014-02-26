@@ -20,7 +20,7 @@
   <remote name="github"
            fetch="git://github.com/" />
 
- <project path="build" name="platform_build" remote="tk" revision="kk-4.4" >
+ <project path="build" name="treken/platform_build" remote="github" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -36,10 +36,10 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
 
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="tk" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="tk" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="tk" revision="kk-4.4" />
-  <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="tk" revision="kk-4.4" />
+  <project path="device/samsung/jflte" name="treken/platform_device_samsung_jflte" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="AOSP-S4-KK/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/qcom/common" name="AOSP-S4-KK/platform_device_qcom_common" groups="pdk" remote="github" revision="kk-4.4" />
   
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="treken/elite_kernel_jf" remote="github" revision="kk-4.4" />
