@@ -286,7 +286,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4" />
