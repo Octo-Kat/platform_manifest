@@ -36,7 +36,7 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
 
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jflte" name="treken/platform_device_samsung_jflte" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="treken/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="treken/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/qcom/common" name="treken/platform_device_qcom_common" groups="pdk" remote="github" revision="kk-4.4" />
@@ -406,7 +406,7 @@
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="hw" revision="cm-11.0" />
   
   <!-- Vendor -->
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="tk" revision="kk-4.4" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4-unify" />
   <project path="vendor/oct" name="vendor_oct" remote="tk" revision="kk-4.4" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
