@@ -36,6 +36,9 @@
   <project path="device/samsung/jflte" name="treken/platform_device_samsung_jflte" groups="pdk" remote="github" revision="kk-4.4" />
   <!-- Samsung gs3 Devices -->
   <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="ok" revision="kk-4.4" />
+  <!-- Samsung Note 3 Devices -->
+  <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="ok" revision="kk-4.4" />
+
   <!-- Samsung Common -->
   <project path="device/samsung/msm8960-common" name="treken/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="CJDubbsy/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
@@ -44,6 +47,7 @@
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="treken/elite_kernel_jf" remote="github" revision="kk-4.4" />
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/hlte" name="platform_kernel_samsung_hlte" remote="ok" revision="kk-4.4" />
 
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -288,16 +292,18 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/display-caf-new" name="platform_hardware_qcom_display-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/media-caf-new" name="platform_hardware_qcom_media-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="hw" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="hw" revision="cm-11.0" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="platform_libcore" remote="ok" revision="kk-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
  
