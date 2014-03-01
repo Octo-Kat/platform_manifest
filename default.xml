@@ -379,9 +379,9 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
-  <project path="prebuilts/gcc/linux-86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
-  <project path="prebuilts/gcc/linux-86/arm/arm-linux-androideabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="gh" revision="sm-kk-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="gh" revision="sm-kk-mr1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
