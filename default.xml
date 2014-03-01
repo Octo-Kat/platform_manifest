@@ -17,10 +17,10 @@
            remote="aosp"
            sync-j="4" />
 
-  <remote name="github"
+  <remote name="gh"
            fetch="git://github.com/" />
 
- <project path="build" name="treken/platform_build" remote="github" revision="kk-4.4" >
+ <project path="build" name="platform_build" remote="ok" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -37,12 +37,12 @@
 
   <!-- Samsung gs4 Devices -->
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="treken/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="treken/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/qcom/common" name="treken/platform_device_qcom_common" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4" />
   
   <!-- Our Kernels -->
-  <project path="kernel/samsung/jf" name="treken/elite_kernel_jf" remote="github" revision="kk-4.4" />
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="tk" revision="kk-4.4" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -379,7 +379,9 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-86/arm/arm-linux-androideabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -393,7 +395,6 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="treken/Linaro_47x_toolchain" remote="github" revision="kk-4.4" />
   <project path="sdk" name="platform/sdk" />
   
   <!-- System -->
