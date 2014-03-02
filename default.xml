@@ -20,7 +20,7 @@
   <remote name="gh"
            fetch="git://github.com/" />
 
- <project path="build" name="platform_build" remote="ok" revision="kk-4.4-sm" >
+ <project path="build" name="platform_build" remote="ok" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
