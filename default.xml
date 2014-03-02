@@ -37,7 +37,7 @@
 
   <!-- Samsung gs4 Devices -->
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4-sm" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
   <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4" />
   
