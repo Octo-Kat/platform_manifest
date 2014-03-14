@@ -302,6 +302,7 @@
   <project path="ndk" name="platform/ndk" />
  
   <!-- Packages -->
+  <project path="packages/apps/DeviceSettings" name="platform_packages_apps_DeviceSettings" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
