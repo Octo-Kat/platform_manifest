@@ -340,7 +340,7 @@
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Tentacles" name="platform_packages_apps_Tentacles" remote="tk" revision="kk-4.4" />
+  <project path="packages/apps/Tentacles" name="platform_packages_apps_Tentacles" remote="tk" revision="new" />
   <project path="packages/apps/Torch" name="platform_packages_apps_Torch" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
