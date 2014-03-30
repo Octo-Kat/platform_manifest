@@ -412,7 +412,7 @@
   
   <!-- Vendor -->
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="tk" revision="kk-4.4" />
-  <project path="vendor/oct" name="vendor_oct" remote="tk" revision="kk-4.4-unify" />
+  <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4-unify" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/providers/ThemeManager" name="platform_vendor_tmobile_providers_ThemeManager" remote="ok" revision="kk-4.4" />
