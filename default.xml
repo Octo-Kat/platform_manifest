@@ -42,7 +42,7 @@
   <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
 
   <!-- Note 3 -->
-  <project path="device/samsung/hltexx" name="platform_device_samsung_hltexx" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="ok" revision="kk-4.4" />
  
   <!-- Our Kernels -->
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4-sm" />
