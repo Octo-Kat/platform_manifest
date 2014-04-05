@@ -4,6 +4,9 @@
   <remote name="ok"
            fetch="https://github.com/Octo-Kat/" />
 
+  <remote name="tk"
+           fetch="https://github.com/treken/" />
+           
   <remote name="hw"
            fetch="https://github.com/hardware-repos/" />
            
@@ -14,10 +17,10 @@
            remote="aosp"
            sync-j="4" />
 
-  <remote name="github"
+  <remote name="gh"
            fetch="git://github.com/" />
 
- <project path="build" name="treken/platform_build" remote="github" revision="kk-4.4" >
+ <project path="build" name="platform_build" remote="ok" revision="kk-4.4-unity" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -28,27 +31,27 @@
   <project path="jet" name="jet" remote="ok" revision="kk-4.4-unify" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="platform_dalvik" remote="ok" revision="kk-4.4" />
   <project path="development" name="platform/development" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  
-  <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jflte" name="treken/platform_device_samsung_jflte" groups="pdk" remote="github" revision="kk-4.4" />
+
   <!-- Samsung gs3 Devices -->
   <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="ok" revision="kk-4.4" />
-  <!-- Samsung Note 3 Devices -->
+  
+  <!-- Samsung gs4 Devices -->
+  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="device/samsung/qcom-common" name="platform_device_samsung_qcom-common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+
+  <!-- Note 3 -->
   <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="ok" revision="kk-4.4" />
-
-  <!-- Samsung Common -->
-  <project path="device/samsung/msm8960-common" name="treken/platform_device_samsung_msm8960-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="CJDubbsy/platform_device_samsung_qcom-common" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="device/qcom/common" name="CJDubbsy/platform_device_qcom_common" groups="pdk" remote="github" revision="kk-4.4" />
-
+ 
   <!-- Our Kernels -->
-  <project path="kernel/samsung/jf" name="treken/elite_kernel_jf" remote="github" revision="kk-4.4" />
-  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4-sm" />
   <project path="kernel/samsung/hlte" name="platform_kernel_samsung_hlte" remote="ok" revision="kk-4.4" />
-
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
+  
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
@@ -64,9 +67,9 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="ok" revision="kk-4.4-sm" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/busybox" name="android_external_busybox" remote="hw" revision="cm-11.0" />
+  <project path="external/busybox" name="platform_external_busybox" remote="ok" revision="kk-4.4" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
@@ -106,7 +109,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="ok" revision="kk-4.4-unity" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -248,7 +251,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="CJDubbsy/platform_frameworks_av" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="trek" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -256,12 +259,13 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="CJDubbsy/platform_frameworks_native" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" remote="ok" revision="kk-4.4" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
@@ -283,24 +287,22 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="hw" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="ok" revision="kk-4.4" />
-  <project path="hardware/samsung" name="platform_hardware_samsung" remote="hw" revision="kk-4.4" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="ok" revision="kk-4.4-unity" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="ok" revision="kk-4.4-unity" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/display-caf-new" name="platform_hardware_qcom_display-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4-unity" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4" />
-  <project path="hardware/qcom/media-caf-new" name="platform_hardware_qcom_media-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4-unity" />
+  <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4-unity" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="hw" revision="cm-11.0" />
+  <project path="hardware/samsung" name="platform_hardware_samsung" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="hw" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="libcore" name="platform_libcore" remote="ok" revision="kk-4.4" />
@@ -308,12 +310,13 @@
   <project path="ndk" name="platform/ndk" />
  
   <!-- Packages -->
+  <project path="packages/apps/DeviceSettings" name="platform_packages_apps_DeviceSettings" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="ok" revision="kk-4.4" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -326,6 +329,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="ok" revision="kk-4.4" />
+  <project path="packages/apps/AndroidKernelTweaker" name="platform_packages_apps_AndroidKernelTweaker" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
@@ -346,7 +350,7 @@
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Tentacles" name="platform_packages_apps_Tentacles" remote="trek" revision="kk-4.4" />
+  <project path="packages/apps/Tentacles" name="platform_packages_apps_Tentacles" remote="ok" revision="trek" />
   <project path="packages/apps/Torch" name="platform_packages_apps_Torch" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
@@ -365,7 +369,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="ok" revision="kk-4.4" />
+  <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="ok" revision="kk-4.4-unity" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -387,7 +391,10 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.7" name="Linaro_47x_toolchain" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="ok" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="ok" revision="kk-4.4" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -401,20 +408,19 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="treken/Linaro_47x_toolchain" remote="github" revision="kk-4.4" />
   <project path="sdk" name="platform/sdk" />
   
   <!-- System -->
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="ok" revision="kk-4.4-unity" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="hw" revision="cm-11.0" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="hw" revision="cm-11.0" /> 
-  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="ok" revision="kk-4.4-sm" />
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="hw" revision="cm-11.0" />
   
   <!-- Vendor -->
-  <project path="vendor/samsung" name="CJDubbsy/platform_vendor_samsung" remote="github" revision="kk-4.4" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="ok" revision="kk-4.4" />
   <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4-unify" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
