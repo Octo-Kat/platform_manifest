@@ -120,6 +120,7 @@
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform_external_fsck_msdos" remote="ok" revision="kk-4.4" />
   <project path="external/fuse" name="android_external_fuse" remote="hw" revision="cm-11.0" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="ok" revision="kk-4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -291,9 +292,11 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="hw" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="ok" revision="kk-4.4-unity" />
+  <project path="hardware/qcom/display-caf-new" name="platform_hardware_qcom_display-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="ok" revision="kk-4.4-unity" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="ok" revision="kk-4.4-unity" />
+  <project path="hardware/qcom/media-caf-new" name="platform_hardware_qcom_media-caf-new" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="hw" revision="cm-11.0" />
