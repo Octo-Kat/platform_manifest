@@ -34,19 +34,25 @@
   <project path="dalvik" name="AOSP-S4-KK/platform_dalvik" remote="gh" revision="kk-4.4" />
   <project path="development" name="platform/development" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
+  
+  <!-- Samsung gs3 Devices -->
+  <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="ok" revision="kk-4.4" />
+  
+  <!-- Note 3 -->
+  <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="ok" revision="kk-4.4" />  
 
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
+  
+  <!-- Samsung gs3/gs4 common -->
+    <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4-KK/platform_device_samsung_msm8960-common" groups="pdk" remote="gh" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="gh" revision="kk-4.4" />
-  <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
-
-  <!-- Note 3 -->
-  <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="ok" revision="kk-4.4" />
  
   <!-- Our Kernels -->
-  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4-sm" />
+  <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/hlte" name="platform_kernel_samsung_hlte" remote="ok" revision="kk-4.4" />
+  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4-sm" />
   
   <!-- Documentation -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -421,7 +427,7 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="pdk" remote="gh" revision="cm-11.0" />
   
   <!-- Vendor -->
-  <project path="vendor/samsung" name="AOSP-S4-KK/android_vendor_samsung" remote="gh" revision="kk-4.4" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ok" revision="kk-4.4" />
   <project path="vendor/oct" name="vendor_oct" remote="ok" revision="kk-4.4-unify" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="ok" revision="kk-4.4" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="platform_vendor_tmobile_libs_com.tmobile.themes" remote="ok" revision="kk-4.4" />
