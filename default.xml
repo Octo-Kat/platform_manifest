@@ -3,12 +3,9 @@
 
   <remote name="ok"
            fetch="https://github.com/Octo-Kat/" />
-
-  <remote name="tk"
-           fetch="https://github.com/treken/" />
            
-  <remote name="hw"
-           fetch="https://github.com/hardware-repos/" />
+  <remote name="gh"
+           fetch="git://github.com/" />
            
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
@@ -16,9 +13,6 @@
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
-
-  <remote name="gh"
-           fetch="git://github.com/" />
 
  <project path="build" name="platform_build" remote="ok" revision="kk-4.4-unity" >
     <copyfile src="core/root.mk" dest="Makefile" />
