@@ -289,8 +289,8 @@
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="gh" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="gh" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOSP-S4-KK/platform_hardware_libhardware" groups="pdk" remote="gh" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="AOSP-S4-KK/platform_hardware_libhardware_legacy" groups="pdk"  remote="gh" revision="kk-4.4" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="ok" revision="kk-4.4" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="AOSP-S4-KK/platform_hardware_qcom_audio" groups="qcom" remote="gh" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="AOSP-S4-KK/platform_hardware_qcom_audio-caf" groups="qcom" remote="gh" revision="kk-4.4" />
