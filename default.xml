@@ -44,6 +44,7 @@
   <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="gh" revision="kk-4.4" />
  
   <!-- Our Kernels -->
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="kernel/samsung/d2" name="platform_kernel_samsung_d2" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/hlte" name="platform_kernel_samsung_hlte" remote="ok" revision="kk-4.4" />
   <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ok" revision="kk-4.4-sm" />
