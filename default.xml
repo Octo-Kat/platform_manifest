@@ -395,7 +395,7 @@
   <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,notdefault" />
   <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86,notdefault" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="AOKP/prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" remote="aokp" revision="kitkat" groups="darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" remote="ok" revision="kk-4.4" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/heads/master" remote="aosp" groups="pdk,darwin,arm,notdefault" />
