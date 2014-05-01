@@ -42,7 +42,7 @@
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="ok" revision="kk-4.4" />
   
   <!-- Samsung gs3/gs4 common -->
-    <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" groups="pdk" remote="ok" revision="kk-4.4-unity" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4-KK/platform_device_samsung_msm8960-common" groups="pdk" remote="gh" revision="kk-4.4" />
   <project path="device/samsung/qcom-common" name="AOSP-S4-KK/platform_device_samsung_qcom-common" groups="pdk" remote="gh" revision="kk-4.4" />
  
@@ -336,7 +336,7 @@
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/AndroidKernelTweaker" name="platform_packages_apps_AndroidKernelTweaker" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
