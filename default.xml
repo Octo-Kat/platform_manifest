@@ -30,7 +30,12 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   
   <!-- AOSP Devices -->
+    <project path="device/common" name="device/common" />
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+  <project path="device/asus/flo" name="platform_device_asus_flo" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="device/lge/mako" name="platform_device_lge_mako" groups="pdk" remote="ok" revision="kk-4.4" />
   
   <!-- Samsung gs3 Devices -->
   <project path="device/samsung/d2lte" name="platform_device_samsung_d2lte" groups="pdk" remote="ok" revision="kk-4.4" />
