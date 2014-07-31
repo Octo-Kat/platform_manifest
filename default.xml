@@ -15,6 +15,11 @@
            fetch="https://github.com/CyanogenMod/"
            sync-c="true"
            sync-j="12" />
+           
+  <remote name="sp"
+           fetch="https://github.com/SpawnPool/" 
+           sync-c="true"
+           sync-j="12" />
   
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
