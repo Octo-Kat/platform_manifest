@@ -49,6 +49,6 @@
   <project path="kernel/goldfish" name="android_kernel_goldfish" remote="cm" revision="cm-11.0" />
 
   <!-- Pull SpawnPool Common repos -->
-  <project path=".repo/local_manifest" name="spawn_manifest" remote="sp" revision="test" />  
+  <project path=".repo/local_manifests" name="spawn_manifest" remote="sp" revision="test" />  
 
   </manifest>
