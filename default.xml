@@ -42,5 +42,8 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="kernel/goldfish" name="android_kernel_goldfish" remote="cm" revision="cm-11.0" />
-    
+
+  <!-- Pull SpawnPool Common repos -->
+  <project path=".repo/local_manifest" name="https://github.com/SpawnPool/spawn_manifes" revision="test" />  
+
   </manifest>
