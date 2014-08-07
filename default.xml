@@ -56,5 +56,9 @@
 
   <!-- Pull SpawnPool Common repos -->
   <project path=".repo/local_manifests" name="spawn_manifest" remote="sp" revision="Octos" />  
-
-  </manifest>
+  
+  <!-- Custom Recovery Extra -->
+  <project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-11.0" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-11.0" />
+</manifest>
