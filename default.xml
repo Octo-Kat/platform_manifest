@@ -25,7 +25,12 @@
            fetch="https://github.com/CJDubbsy/" 
            sync-c="true"
            sync-j="4" />
-  
+
+  <remote name="gr"
+           fetch="https://github.com/Grommish/" 
+           sync-c="true"
+           sync-j="4" />
+
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom" remote="ok" revision="kk-4.4" />
