@@ -7,9 +7,14 @@
            sync-j="4" />
 
   <remote name="tm"
-           fetch="https://github.com/TheMuppetz/"
+           fetch="https://github.com/TheMuppets/"
            sync-c="true"
-           sync-j="4" />   
+           sync-j="4" />
+
+  <remote name="pr"
+           fetch="https://github.com/prop-repos/"
+           sync-c="true"
+           sync-j="4" />      
 
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/"
