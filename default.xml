@@ -7,7 +7,7 @@
            sync-j="4" />
 
   <remote name="tm"
-           fetch="https://github.com/TheMuppets/"
+           fetch="https://github.com/TheMuppetz/"
            sync-c="true"
            sync-j="4" />   
 
