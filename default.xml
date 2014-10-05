@@ -436,7 +436,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/services/Telephony" name="CarbonDev/android_packages_services_Telephony" remote="cr" revision="kk" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/wallpapers/OctPapers" name="Octo-Kat/platform_packages_wallpapers_OctPapers" />
+  <project path="packages/wallpapers/OctPapers" name="Octo-Kat/platform_packages_apps_OctPapers" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
