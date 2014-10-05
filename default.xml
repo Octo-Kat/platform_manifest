@@ -17,6 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="cr"
+           fetch="git://github.com/CarbonDev"
+           sync-c="true"
+           sync-j="4" />
+
   <remote  name="sf"
            fetch="git://git.code.sf.net/p/"
            sync-c="true"
