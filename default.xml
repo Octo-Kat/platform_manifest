@@ -18,7 +18,7 @@
            sync-j="4" />
 
   <remote  name="cr"
-           fetch="git://github.com/CarbonDev"
+           fetch="git://github.com/CarbonDev/"
            sync-c="true"
            sync-j="4" />
 
@@ -51,7 +51,7 @@
   <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery" name="Octo-Kat/platform_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="dalvik" name="CarbonDev/android_dalvik" />
