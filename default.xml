@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="cm"
+           fetch="git://github.com/"
+           review="review.cyanogenmod.org"
+           sync-c="true"
+           sync-j="4" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="android-review.googlesource.com"
