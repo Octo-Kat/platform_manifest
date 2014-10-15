@@ -38,7 +38,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="platform_build" groups="pdk" revision="WIP" >
+  <project path="build" name="platform_build" groups="pdk" remote="gh" revision="WIP2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform" name="platform_manifest" revision="WIP"/>
