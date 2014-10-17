@@ -386,7 +386,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cr" revision="kk" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="cr" revision="kk" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cr" revision="kk" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="cr" revision="kk" />
