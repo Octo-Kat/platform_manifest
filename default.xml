@@ -490,7 +490,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="ok" revision="WIP" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cr" revision="kk" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cr" revision="kk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
