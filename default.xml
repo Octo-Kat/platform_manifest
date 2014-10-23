@@ -372,8 +372,6 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cr" revision="kk" />
-  <project path="packages/apps/OctOSAbout" name="platform_packages_apps_OctOSAbout" remote="ok" />
-  <project path="packages/apps/OctOTA" name="platform_packages_apps_OctOTA" remote="ok" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/FileManager" name="platform_packages_apps_FileManager" remote="ok" revision="kk-4.4" />
@@ -393,6 +391,8 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cr" revision="kk" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="cr" revision="kk" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/OctOSAbout" name="platform_packages_apps_OctOSAbout" remote="ok" revision="kk-4.4" />
+  <project path="packages/apps/OctDelta" name="platform_packages_apps_OctDelta" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="cr" revision="kk" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/PackageInstaller" name="omnirom/android_packages_apps_PackageInstaller" remote="gh" revision="android-4.4" />
