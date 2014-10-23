@@ -25,6 +25,7 @@
            
   <remote  name="ok"
            fetch="https://github.com/Octo-Kat/"
+           review="review.teamoctos.com"
            sync-c="true"
            sync-j="4" />
 
