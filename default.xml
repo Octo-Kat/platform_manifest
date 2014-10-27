@@ -30,6 +30,13 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="gerrit"
+           fetch="https://github.com/Team-OctOS/"
+           push="ssh://review.teamoctos.com:29418"
+           review="http://review.teamoctos.com:8080"
+           sync-c="true"
+           sync-j="4" />
+
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/"
            sync-c="true"
@@ -43,7 +50,7 @@
   <project path="build" name="platform_build" groups="pdk" remote="ok" revision="WIP" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="platform" name="platform_manifest" revision="WIP"/>
+  <project path="platform" name="platform_manifest" remote="gerrit" revision="master"/>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="art" name="android_art" remote="cr" revision="kk" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cr" revision="kk" />
